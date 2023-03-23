@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container">
+        <div id="calculator">
+            <div id="display">
+                <div id="typed">
+                    <p></p>
+                </div>
+                <div id="result">
+                    <i class="ph-equals"></i>
+                    <p id="aux-result">0</p>
+                </div>
+            </div>
+
+            <div id="keyboard">
+                <button class="operator letter-options" value="ce">
+                    ce
+                </button>
+                <button class="operator letter-options" value="c">
+                    c
+                </button>
+                <button class="operator" value="%">
+                    <i class="ph-percent"></i>
+                </button>
+                <button class="accent-btn operator" value="/">
+                    <i class="ph-divide"></i>
+                </button>
+                <button class="number" value="7">
+                    7
+                </button>
+                <button class="number" value="8">
+                    8
+                </button>
+                <button class="number" value="9">
+                    9
+                </button>
+                <button class="accent-btn operator" value="*">
+                    <i class="ph-x"></i>
+                </button>
+                <button class="number" value="4">
+                    4
+                </button>
+                <button class="number" value="5">
+                    5
+                </button>
+                <button class="number" value="6">
+                    6
+                </button>
+                <button class="accent-btn operator" value="-">
+                    <i class="ph-minus"></i>
+                </button>
+                <button class="number" value="1">
+                    1
+                </button>
+                <button class="number" value="2">
+                    2
+                </button>
+                <button class="number" value="3">
+                    3
+                </button>
+                <button class="accent-btn operator" value="+">
+                    <i class="ph-plus"></i>
+                </button>
+                <button class="operator" value="plus-minus">
+                    <i class="ph-plus-minus"></i>
+                </button>
+                <button class="number" value="0">
+                    0
+                </button>
+                <button class="number" value="coma">&sbquo;</button>
+                <button class="accent-btn operator" value="=">
+                    <i class="ph-equals"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script/calculator.js"></script>
+</body>
+</html>
